@@ -22,7 +22,7 @@ export class Reduction extends React.Component {
 
   componentDidMount() {
     //const { navigation } = this.props;
-    fetch('http://localhost:5000/api/Reduction')
+    fetch('http://192.168.1.52:5000/api/Reduction')
       .then((response) => response.json())
       .then((responseJson) => {
         this.setState({

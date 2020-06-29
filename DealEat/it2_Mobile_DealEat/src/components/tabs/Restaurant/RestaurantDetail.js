@@ -31,7 +31,7 @@ export class RestaurantDetail extends React.Component {
 
   componentDidMount() {
     //const { navigation } = this.props;
-    fetch('http://localhost:5000/api/Restaurant/getrestaurant/' + this.state.id)
+    fetch('http://192.168.1.52:5000/api/Restaurant/getrestaurant/' + this.state.id)
       .then((response) => response.json())
       .then((responseJson) => {
         this.setState({
@@ -40,7 +40,7 @@ export class RestaurantDetail extends React.Component {
         })
       });
 
-    fetch('http://localhost:5000/api/restaurant/getfeedbackbyrestaurant/' + this.state.id)
+    fetch('http://192.168.1.52:5000/api/restaurant/getfeedbackbyrestaurant/' + this.state.id)
       .then((response2) => response2.json())
       .then((responseJson2) => {
         this.setState({
@@ -48,14 +48,14 @@ export class RestaurantDetail extends React.Component {
         })
       });
 
-    fetch('http://localhost:5000/api/reduction/GetReductionByRestaurant/' + this.state.id)
+    fetch('http://192.168.1.52:5000/api/reduction/GetReductionByRestaurant/' + this.state.id)
       .then((response3) => response3.json())
       .then((responseJson3) => {
         this.setState({
           ReductionSource: responseJson3
         })
       });
-    /*fetch('http://localhost:5000/api/Restaurant/CreateNewFeedback/', {
+    /*fetch('http://192.168.1.52:5000/api/Restaurant/CreateNewFeedback/', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
