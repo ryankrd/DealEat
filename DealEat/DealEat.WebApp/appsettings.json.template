@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "DealEatDB": "Server=SERVERNAME;Database=DealEatDB;Trusted_connection=true"
+  }
+}

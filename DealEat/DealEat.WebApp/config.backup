@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+	sharedrepository = 2
+[receive]
+	denyNonFastforwards = true
+[remote "webapp"]
+	url = C:/S5/Dealeat2/DealEat/DealEat.WebApp
+	fetch = +refs/heads/*:refs/remotes/webapp/*

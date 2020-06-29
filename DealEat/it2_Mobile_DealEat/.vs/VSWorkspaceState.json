@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\auth",
+    "\\src\\components\\drawer",
+    "\\src\\components\\tabs",
+    "\\src\\components\\tabs\\Restaurant"
+  ],
+  "SelectedNode": "\\src\\components\\tabs\\Restaurant\\RestaurantDetail.js",
+  "PreviewInSolutionExplorer": false
+}
